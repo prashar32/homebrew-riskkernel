@@ -34,3 +34,5 @@ class Riskkernel < Formula
     assert_match "riskkernel", shell_output("#{bin}/riskkernel version")
   end
 end
+
+# automation-test marker (workflow will overwrite this with the canonical formula)
